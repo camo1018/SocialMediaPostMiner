@@ -26,7 +26,7 @@ app.get('/', function(req, res) {
 
 // Controllers
 require('./login.js')(app, modules);
-require('./miner.js')(app, modules);
+require('./facebook-miner.js')(app, modules);
 
 console.log('Server started at port 7000');
 
